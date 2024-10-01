@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(rgba(63, 63, 63, 0.4), rgba(63, 63, 63, 0.4)),
+    url("/images/backgroundImage.jpg");
+  background-size: cover;
+  /* background-color: rgb(234, 234, 234); */
+}
+p {
+  opacity: 0.8;
+}
+.home-image {
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
+}
+h1 {
+  color: red;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+}
+.main-heading {
+  color: red;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+}
+.card-title {
+  letter-spacing: 0.08rem;
+  color: red;
+}
+.btn-danger:hover {
+  background: transparent;
+  border: 1px solid red;
+  color: red;
+}
+.about-card {
+  width: 60rem;
+}
+@media (max-width: 740px) {
+  .about-card {
+    width: 20rem; /* Set a different width for tablets */
+  }
+}
+nav {
+  /* background:transparent; */
+  /* opacity: 0.8; */
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 14px;
+  font-family: Google Sans, Arial, sans-serif-medium, sans-serif;
+  letter-spacing: 0.09rem;
+}
+.nav-link:hover {
+  color: red !important;
+}
+.nav-item {
+  padding-right: 1rem;
+}
+body.modal-open {
+  padding-right: 0 !important;
+}
+.event-card {
+  margin-bottom: 2rem;
+}
+.event-card-date {
+  width: 11rem;
+  /* background-color: rgb(98, 96, 96);    */
+  background-color: rgba(22, 18, 18, 0.5);
+  border: 1px solid red;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  transition: 0.5s;
+  /* margin-bottom: 2rem; */
+}
+.event-card-date:hover {
+  transition: 0.5s;
+  background-color: red;
+}
+
+.event-card-date:hover h4 {
+  transition: 0.5s;
+  color: white;
+}
+
+.event-card-date h4 {
+  color: red;
+  font-size: 32px;
+  padding-top: 2rem;
+}
+.event-card-detail {
+  width: 23rem;
+
+  background-color: white;
+  padding: 1rem;
+}
+.footer-div {
+  background-color: rgba(23, 21, 21, 0.7);
+}
+footer {
+  background-color: rgba(23, 21, 21, 0.7);
+  /* background-color: black; */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.fab {
+  font-size: 22px;
+}
+.fab:hover{
+    color: red;
+}
+.quick-link-ul {
+}
+.quick-link-ul li a {
+  text-decoration: none;
+  color: rgb(207, 203, 203);
+}
+.quick-link-ul li:hover i,
+.quick-link-ul li:hover a {
+    color: red;
+}
